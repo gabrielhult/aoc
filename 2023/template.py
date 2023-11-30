@@ -1,5 +1,5 @@
 def read_input():
-    with open("readme", "r") as f:
+    with open("2023/x", "r") as f:
         input_data = f.read().split("\n")
         print(input_data)
     return input_data
