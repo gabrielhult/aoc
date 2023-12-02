@@ -1,7 +1,6 @@
 def read_input():
     with open("2023/2.txt", "r") as f:
         input_data = f.read().split("\n")
-        #print(input_data)
     return input_data
 
 def part1(data):
@@ -9,7 +8,6 @@ def part1(data):
     mg = 13
     mb = 14
     id_sum = 0
-
     for game in data:
         curr_r = curr_g = curr_b = 0
         gid = int(game.split(':')[0].split()[1])
@@ -28,7 +26,6 @@ def part1(data):
 
 def part2(data):
     res = 0
-    
     for game in data:
         minred = mingreen = minblue = 0
         curr_r = curr_g = curr_b = 0
@@ -45,7 +42,6 @@ def part2(data):
             mingreen = max(curr_g, mingreen)
             minblue = max(curr_b, minblue)
         res += minred * mingreen * minblue
-
     return res
 
 
