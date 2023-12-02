@@ -59,7 +59,7 @@ if __name__ == "__main__":
         submit(part1_ans, part="a", day=DAY, year=YEAR)
 
     part2_ans = part2(data)
-    print("\nPart2:", part1_ans)
+    print("\nPart2:", part2_ans)
     if part2_ans is not None:
         submit(part2_ans, part="a", day=DAY, year=YEAR)
         
