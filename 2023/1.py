@@ -72,6 +72,6 @@ if __name__ == "__main__":
     part2_ans = part2(data)
     print("\nPart2:", part2_ans)
     if part2_ans is not None:
-        submit(part2_ans, part="a", day=DAY, year=YEAR)
+        submit(part2_ans, part="b", day=DAY, year=YEAR)
         
     print("Time: ", time.time() - start)
