@@ -30,10 +30,10 @@ if __name__ == "__main__":
     if part1_ans is not None:
         submit(part1_ans, part="a", day=DAY, year=YEAR)
 
-    # WIP: Might not be compatible with part2?
-    # example2 = part2(examples.input_data.splitlines())
-    # assert int(example2) == int(examples.answer_b), f"Wrong answer. Expected {examples.answer_b}, got {example2}"
-    # print("\nExample2:", example2)
+    # Works if same example data is used for both parts
+    example2 = part2(examples.input_data.splitlines())
+    assert int(example2) == int(examples.answer_b), f"Wrong answer. Expected {examples.answer_b}, got {example2}"
+    print("\nExample2:", example2)
 
     part2_ans = part2(data)
     print("\nPart2:", part2_ans)

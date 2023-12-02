@@ -1,9 +1,8 @@
 # Advent of Code
 
-Here are my solutions to the [Advent of Code](https://adventofcode.com/) puzzles. 
-Using aocd package to get puzzle input and to submit solutions
+Here are my solutions to the [Advent of Code](https://adventofcode.com/) puzzles. Using aocd package to get puzzle input and to submit solutions
 
-## 2023 Personal Stats
+## 2023 Personal Stats (if I remember to update)
 
 ```
       --------Part 1--------   --------Part 2--------
